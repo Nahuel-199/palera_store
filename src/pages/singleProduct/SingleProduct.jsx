@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { publicRequest } from "../../requestMethod";
-import "./singleproduct.css";
+import "./singleProduct.css";
 
 const SingleProduct = () => {
   const { id } = useParams()
