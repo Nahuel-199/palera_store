@@ -1,0 +1,36 @@
+.container__productList .title__productList {
+    margin: 40px;
+    color: gray;
+    margin-left: 23%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .container__productList .title__productList {
+      font-size: 3rem;
+      margin-left: 30%;
+      margin-top: 100px;
+    }
+  }
+  
+  .container__productList .filterContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .container__productList .filters {
+    margin: 20px;
+  }
+  
+  .container__productList .filter__text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+  }
+  
+  .container__productList .selects {
+    padding: 10px;
+    margin-right: 20px;
+  }
+  

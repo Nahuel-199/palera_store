@@ -1,0 +1,15 @@
+.container__categories{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+   
+    .swiper-pagination-bullet {
+        background-color: black !important;
+       
+    }
+    
+    .swiper-pagination-bullet-active {
+        background-color: #ffd401 !important;
+        margin-top: 30%;
+    }
